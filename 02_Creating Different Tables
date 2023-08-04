@@ -1,0 +1,28 @@
+create database org;
+use org;
+
+
+create table worker (
+worker_id int not null primary key auto_increment,
+first_name char(25),
+     last_name char(25),
+     salary int(15),
+     joining_date DATETIME,
+     department char(25)
+     );
+     
+     show tables;
+     
+     insert into worker 
+     ( worker_id,first_name,last_name,salary,joining_date,department) values
+     (001,'A','a',100,'14-02-2023 09-00-00','hr'),
+     (002,'B','b',200,'15-02-2023 09-00-00','admin'),
+     (001,'C','c',300,'16-02-2023 09-00-00','sales'),
+     (001,'D','d',400,'17-02-2023 09-00-00','account'),
+     (001,'E','e',500,'18-02-2023 09-00-00','hr'),
+     (001,'F','f',600,'19-02-2023 09-00-00','account'),
+     (001,'G','g',700,'20-02-2023 09-00-00','admin'),
+     (001,'H','h',800,'21-02-2023 09-00-00','hr');
+     
+
+
