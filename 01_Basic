@@ -1,0 +1,8 @@
+create database temp;
+use temp;
+create table Student(
+id int primary key,
+name varchar(255)
+);
+insert into Student values(1,'Akshita');
+select * from Student;
