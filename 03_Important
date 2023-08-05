@@ -1,0 +1,7 @@
+can we use select keyword without using from clause -> 
+yes we can do so by using dual tables
+Dual Tables -> Dual Tables are dummy tables created by MuSQL, help users to do certain obvious actions without 
+referring to user defined tables.
+
+select 55+11;
+select now()
